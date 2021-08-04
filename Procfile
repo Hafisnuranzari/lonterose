@@ -1,2 +1,3 @@
-DAISYX: python3 -m DaisyX
-ps:scale DAISYX=1
+worker: python3 -m DaisyX 
+web: python3 -m DaisyX
+ps:scale worker=1
