@@ -63,7 +63,7 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-HALLO SOBAT ! GUA,
+HAI GAES! GUA NISHFU IM
 GUA HADIR UNTUK MEMBANTU ELU NGAB!.
 
 RAWAT GROUP ELU, BIAR ELU NYA KAGAK CAPEK!
@@ -72,12 +72,12 @@ RAWAT GROUP ELU, BIAR ELU NYA KAGAK CAPEK!
 
 buttons = [
     [
-        InlineKeyboardButton(text="👮OWNER👮", url="https://t.me/kenkanasw"),
-        InlineKeyboardButton(text="💬GROUP💬", url="https://t.me/musikkugroup"),
+        InlineKeyboardButton(text="OWNER", url="https://t.me/paradoxxx22"),
+        InlineKeyboardButton(text="GROUP", url="https://t.me/paradoXzone"),
     ],
     [
-        InlineKeyboardButton(text="❓ BANTUAN ❓", callback_data="help_back"),
-        InlineKeyboardButton(text="📣CHANNEL📣", url="https://t.me/musikkuchannel"),
+        InlineKeyboardButton(text=" BANTUAN ", callback_data="help_back"),
+        InlineKeyboardButton(text="CHANNEL", url="https://t.me/kutipankitaa"),
     ],
     [
         InlineKeyboardButton(
@@ -88,8 +88,8 @@ buttons = [
 
 
 HELP_STRINGS = f"""
-*Komen Utama :* [🤖](https://telegra.ph/file/f973d5a6d4d91f6ca5aa3.jpg)
-HEY NGAB! GUA GUA PUNYA BANYAK MODULE NIH, COBA LIAT KEBAWAH ADA PANDUANNYA KAN? NAH COBAIN AJA YA.
+*Komen Utama :* [🤖](https://telegra.ph/file/b576d1fca4d3f8fafd877.jpg)
+HEY GAES!! GUA GUA PUNYA BANYAK MODULE NIH, COBA LIAT KEBAWAH ADA PANDUANNYA KAN? NAH COBAIN AJA YA.
 ✪ /start: Memulai menggunakan saya.
 ✪ /help: Klik ini akan memunculkan modul saya!
 ✪ /settings: 
@@ -362,8 +362,8 @@ def DaisyX_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Hi kembali!  Nam saya {dispatcher.bot.first_name} 😍 \n\nSaya adalah bot yang di kelola @kenkanasw.* "
-            f"\n\n 🔥 Join [MUSIK KU GROUP](https://t.me/musikkugroup) Untuk tahu kabar terbaru dari {dispatcher.bot.first_name} 🔥"
+            text=f"* Hi lagi gaes!  Nam saya {dispatcher.bot.first_name} 😍 \n\nSaya adalah bot yang di kelola @paradoxxx22 @pachemild.* "
+            f"\n\n  Join [GRUP GUA KUY](https://t.me/paradoXzone) Untuk tahu kabar terbaru dari {dispatcher.bot.first_name} 🔥"
             f"\n\n Saya memiliki sistem yang dapat mengatasi member yang suka spam, kamu tinggal aktifkan anti spam di pengaturan saya."
             f"\n\n👇 Kamu bisa klik di bawah untuk cara penggunaan 👇",
             parse_mode=ParseMode.MARKDOWN,
@@ -372,12 +372,12 @@ def DaisyX_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="📑CARA PENGGUNAAN", callback_data="aboutmanu_howto"
+                            text="CARA PENGGUNAAN", callback_data="aboutmanu_howto"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="❔Help & Commands", callback_data="help_back"
+                            text="Help & Commands", callback_data="help_back"
                         )
                     ],
                     [InlineKeyboardButton(text="◀️", callback_data="aboutmanu_back")],
