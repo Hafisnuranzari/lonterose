@@ -7,7 +7,7 @@
          "group",
          "manager"
       ],   
-   "repository": "https://github.com/nishfu22/kakanyarose",
+   "repository": "https://github.com/Hafisnuranzari/lonterose",
    "addons": [
       {
          "options": {
@@ -57,7 +57,7 @@
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "ParadoXzone"
+         "value": "Fakhasemelehyuk"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -178,6 +178,6 @@
       "manager",
       "daisy"
    ],
-   "name": "Kakanya Rose",
-   "repository": "https://github.com/nishfu22/kakanyarose"
+   "name": "LONTE Rose",
+   "repository": "https://github.com/Hafisnuranzari/lonterose"
 }
