@@ -63,8 +63,8 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-HAI GAES! GUA NISHFU IM
-GUA HADIR UNTUK MEMBANTU ELU NGAB!.
+KENALIN NAMA GW HAPIS
+GW DISINI MAU BANTU BUAT.
 
 RAWAT GROUP ELU, BIAR ELU NYA KAGAK CAPEK!
 
@@ -72,12 +72,12 @@ RAWAT GROUP ELU, BIAR ELU NYA KAGAK CAPEK!
 
 buttons = [
     [
-        InlineKeyboardButton(text="OWNER", url="https://t.me/paradoxxx22"),
-        InlineKeyboardButton(text="GROUP", url="https://t.me/paradoXzone"),
+        InlineKeyboardButton(text="OWNER", url="https://t.me/xhfszz"),
+        InlineKeyboardButton(text="GROUP", url="https://t.me/circlewarwer"),
     ],
     [
         InlineKeyboardButton(text=" BANTUAN ", callback_data="help_back"),
-        InlineKeyboardButton(text="CHANNEL", url="https://t.me/kutipankitaa"),
+        InlineKeyboardButton(text="CHANNEL", url="https://t.me/circlewarwer"),
     ],
     [
         InlineKeyboardButton(
